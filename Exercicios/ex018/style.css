@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap')
+    font-family: "Gelasio", serif;
+    font-size: 1.5em;
+    color: black;
+}
+h1{
+    font-family: "Gelasio", serif;
+}
