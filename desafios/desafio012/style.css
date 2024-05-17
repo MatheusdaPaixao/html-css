@@ -46,11 +46,46 @@ p{
 }
 
 .normal{
-    display: block;
-    background-color: gray;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-
+.bloco{
+    background-color: rgba(0, 0, 0, 0.432);
+    color: white;
+    width: 41%;
+    padding: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.bloco2{
+    background-color: rgba(0, 0, 0, 0.596);
+    color: white;
+    width: 40.1%;
+    padding: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 .imagem{
     display: block;
-    background-color: darkslategray;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+#img1{
+    display: block;
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 1px 1px 4px 0px black;
+    height: 900px;
+}
+#img2{
+    display: block;
+    background-image: url('imagens/background002.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 1px 1px 4px 0px black;
+    height: 900px; 
 }
